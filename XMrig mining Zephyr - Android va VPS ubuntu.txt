@@ -1,0 +1,49 @@
+
+
+
+1, Zephyr Miner cho Ubuntu:
+
+
+
+
+! wget https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-focal-x64.tar.gz
+
+! tar xvaf xmrig-6.20.0-focal-x64.tar.gz
+
+! cd xmrig-6.20.0
+
+! screen -R 
+
+! ./xmrig -o sg-zephyr.miningocean.org:5332 -u ZEPHYR3G6wE1hKpM8pPfd7NVycstRHfkkeSXL3be8UZQE1y9XTk4mL91vrMXCJoX8aA5wb1h9UkNBSByxJT4C2eXKWieTkuGxdk42 -p vps03 -a rx/0 -k -t 4
+
+!
+
+
+
+
+   2,  Android 2023 
+
+1, Cai userland tren CHplay 
+
+2, chay Userland ubuntu 
+
+3, Setup Xmrig cho Android 
+
+apt-get update -y 
+
+sudo apt install ca-certificates
+
+sudo apt update -y && sudo apt install curl -y && curl https://raw.githubusercontent.com/HighVoltage557/XmrigOnAndroid/main/compile.sh | bash
+
+cd && cd xmrig/build
+
+4, setup pool : 
+
+./xmrig -o sg-zephyr.miningocean.org:5332 -u ZEPHYR2yxxx652C -p vps03 -a rx/0 -k -t 6
+
+
+
+
+
+
+
